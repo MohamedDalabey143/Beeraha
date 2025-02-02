@@ -1,0 +1,452 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 60px;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+.btnLogin{
+    background-color: #204E51;
+    font-size: 28px;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 12px;
+}
+.btnSign{
+    background-color: white;
+    font-size: 28px;
+    color: #204E51;
+    border: 2px solid #204E51;
+    padding: 8px 25px;
+    border-radius: 12px;
+}
+.hero{
+    height: 550px;
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/free-photo/farmer-picking-fresh-ripe-tomato-vegetables-putting-into-wooden-crate_342744-1363.jpg?uid=R176109632&ga=GA1.1.1111462199.1732602902&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+   
+.hero h1{
+    font-size: 80px;
+    padding-top: 100px;
+}
+.hero p{
+    margin: 40px;
+}
+
+
+.passion-left{
+    width: 600px;
+  
+}
+.passion-right{
+    width: 500px;
+    position: relative;
+}
+.passion-prent{
+    display: flex;
+    justify-content: center;
+    margin: 60px 1px;
+}
+.passion-left h1{
+    font-size: 60px;
+}
+.passion-right img{
+    width: 500px;
+    height: 460px;
+    border-radius: 12px;
+}
+.passion-right button{
+    padding: 30px 100px;
+    border: none;
+    font-size: 32px;
+    border-radius: 20px;
+   background-color: #204E51;
+    position: absolute;
+    bottom: -18px;
+    left: 60px;
+}
+
+.Section-title{
+    text-align: center;
+    margin: 20px 0px;
+    color: #204E51;
+}
+.Section-title h1{
+    font-size: 70px;
+    text-shadow: 3px 10px gray;
+}
+.Section-title p{
+    margin: 10px 300px;
+}
+
+.service{
+    width: 250px;
+    height: 250px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 3px 20px 10px rgb(118, 118, 129);
+}
+.service-prent{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.service i{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.service h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.product{
+    height: 350px;
+    width: 250px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius:10px;
+    padding: 20px  5px;
+
+}
+.product-prent{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+
+}
+.product img{
+    width: 200px;
+    border-radius:20px;
+    height: 170px;
+    
+}
+.product p{
+    font-size: 10px;
+    padding: 20px;
+}
+
+.substain{
+    height: 400px;
+    background-color: lightcoral;
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/free-photo/farmer-picking-fresh-ripe-tomato-vegetables-putting-into-wooden-crate_342744-1363.jpg?uid=R176109632&ga=GA1.1.1111462199.1732602902&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    padding-left: 100px;
+}
+.substain h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+.benefit-left{
+    width: 600px;
+    font-size: 20px;
+}
+.benefit-left h1{
+    font-size: 100px;
+    color: #204E51;
+    margin-top: 30px;
+}
+.benefit-left p{
+    margin: 20px 0px;
+}
+.benefit-right{
+    width: 500px;
+    height: 600px;
+    background-color: #204E51;
+    color: white;
+}
+.benefit-prent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.icon-prent{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 50px;
+}
+.icon-prent i{
+    font-size: 60px;
+    padding: 30px 0px;
+}
+.benefit-prent h1{
+    font-size: 50px;
+}
+
+.Testimonial{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+   
+}
+
+.Testimonial-prent{
+    display: grid;
+    grid-template-columns: 80px 800px 80px;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 70px;
+
+
+}
+
+.Testimonial i{
+    margin-top: 100px;
+    font-size: 50px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 2px 10px 6px gainsboro;
+
+}
+#Testimonial-center{
+    background-color: #204E51;
+    border-radius: 10px;
+}
+.review-prent img{
+    width: 200px;
+}
+.review-prent{
+    display: flex;
+    color: white;
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+
+}
+.review-prent i{
+    color:  #ffbe40;
+    font-size: 22px;
+    margin: 5px;
+    
+}
+.review-prent h1{
+    padding: 10px;
+}
+#pp{
+    font-size: 12px;
+    padding: 10px;
+
+}
+.imge-prent{
+    width: 500px;
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    padding-left: 100px;
+}
+.imge-prent img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+   
+   
+}
+.imge-prent h1{
+    font-size: 20px;
+    padding: 10px;
+    color: #204E51;
+}
+.imge-prent p{
+    font-size: 13px;
+    padding: 10px;
+}
+.imge-prent button{
+    /* color: #204E51; */
+    border: none;
+
+}
+.header-icons{
+    background-color: #204E51;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.header-icons h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.header-icons p{
+    padding: 10px;
+}
+
+.header-icons i{
+    font-size: 25px;
+    padding: 15px  5px ;
+}
+.pages ul{
+    margin-left: 30px;
+    list-style: none;
+
+    
+}
+.About ul{
+    margin-left: 25px;
+    list-style: none;
+
+}
+.header i{
+    display: none;
+    font-size: 32px;
+}
+.header{
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .btns{
+        display: none;
+    }
+    .header ul{
+        display: none;
+    }
+
+    .header i{
+        display: block;
+    }
+    .hero h1{
+        font-size: 24px;
+
+    }
+
+    .passion-prent{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .passion-left ,.passion-right{
+        width: 300px;
+
+    }
+    .passion-left h1{
+        font-size: 28px;
+
+    }
+
+    .passion-left img{
+        width: 300px;
+
+    }
+    .passion-right button{
+        padding: 20px;
+        font-size: 20px;
+
+
+    }
+    .Section-title h1{
+        font-size: 60px;
+    }
+    .service-prent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Section-title p{
+        margin: 20px;
+    }
+
+    .product-prent{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .substain{
+        padding: 20px;
+    }
+    .substain h1{
+        font-size: 30px;
+    }
+    
+    .benefit-prent {
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+       
+    }
+    .benefit-left p{
+        font-size: 20px;
+       margin-top: 30px;
+       width: 300px;
+        
+
+    }
+    .benefit-left h1{
+        font-size: 40px;
+        width: 300px;
+
+    }
+    .Testimonial-prent {
+        grid-template-columns: 30px 270px 30px;
+        gap: 10px;
+     
+     
+     
+    }
+    .review-prent img{
+        width: 150px;
+        height: 100px;
+    }
+    .review-prent{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+       font-size: 10px;
+       text-align: center;
+    }
+    .Testimonial i{
+        padding: 10px;
+        font-size: 22px;
+    }
+
+
+    .imge-prent{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+       
+    }
+    .icon-prent{
+        margin-left: 10px;
+        width: 700px;
+
+    }
+    .benefit-right {
+        margin-top: 30px;
+        margin-right: 100px;
+        width: 400px;
+    }
+    
+       
+    }
+    
+    
+
+
+
+
+
